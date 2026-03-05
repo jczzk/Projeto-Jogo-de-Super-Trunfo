@@ -7,14 +7,14 @@ int main() {
     // =========================
 
     char estado_1 = 'A';
-    char cod_estado_1[22] = "A01";
-    char nome_cidade_1[50] = "Rio de Janeiro";
-    int populacao_1 = 6800000;                    // Estimativa 2026
-    float area_1 = 1200.25;                       // km²
-    float pib_1 = 380.75;                         // Bilhões de reais (Estimativa 2026)
+    char codigo_Carta_1[22] = "A01";
+    char nome_Cidade_1[50] = "Rio de Janeiro";
+    int populacao_1 = 11900000;               // Estimativa 2026
+    float area_1 = 1200.25;                  // km²
+    float pib_1 = 1.5;                    // Trilhões de reais (Estimativa 2026)
     int pontos_turiticos_1 = 45; 
-    float densidade_populacional_1 = 5.170;       // Hab/km²
-    float pib_per_capita_1 =  75.000;             // De reais (Estimativa 2026)
+    float densidade_populacional_1 = 5.170;  // Hab/km²
+    float pib_per_capita_1 = 2.794;        // De reais (Estimativa 2026)
     
     
     
@@ -23,14 +23,14 @@ int main() {
     // =========================
 
     char estado_2 = 'B';
-    char cod_estado_2[5] = "B02";
-    char nome_cidade_2[50] = "São Paulo";
-    int populacao_2 = 12400000;                   // Estimativa 2026
-    float area_2 = 1521.11;                                 // Km²
-    float pib_2 = 820.50;                                  // Bilhões de reais (Estimativa 2026)
+    char codigo_Carta_2[5] = "B02";
+    char nome_Cidade_2[50] = "São Paulo";
+    int populacao_2 = 11950000;              // Estimativa 2026
+    float area_2 = 1521.11;                  // Km²
+    float pib_2 = 4.3;                    // Trilhões de reais (Estimativa 2026)
     int pontos_turiticos_2 = 60;
-    float densidade_populacional_2 = 7.600;       // Hab/km²
-    float pib_per_capita_2 =  65.000;             // De reais (Estimativa 2026)
+    float densidade_populacional_2 = 7.600;  // Hab/km²
+    float pib_per_capita_2 = 3.090;        // De reais (Estimativa 2026)
 
  
 
@@ -38,26 +38,17 @@ int main() {
     // Leitura dos dados da Carta 1
     // =============================
 
-    printf("Digite o estado da Carta 1:\n");
-    scanf(" %c", &estado_1);
-
-    printf("Digite o codigo do estado em numero de 01 a 04 (ex: A01):\n");
-    scanf(" %s", cod_estado_1);
-
-    printf("Digite o nome da cidade:\n");
-    scanf(" %c[^\n]", nome_cidade_1);
-
-    printf("Digite a populacao:\n");
-    scanf(" %d", &populacao_1);
-
-    printf("Digite a area (em km²):\n");
-    scanf("%f", &area_1);
-
-    printf("Digite o PIB (em bilhoes):\n");
-    scanf("%f", &pib_1);
-
-    printf("Digite os pontos turisticos (em numero):\n");
-    scanf("%d", &pontos_turiticos_1);
+    printf("===== CARTA 1 =====\n");
+    printf("Estado: %c\n", estado_1);
+    printf("Código: %s\n", codigo_Carta_1);
+    printf("Nome da Cidade: %s\n", nome_Cidade_1);
+    printf("População: %d Milhões de pessoas\n", populacao_1);
+    printf("Área: %.2f Km²\n", area_1);
+    printf("PIB: %.1f Trilhões de Reais\n", pib_1);
+    printf("Número de Pontos Turísticos: %d\n", pontos_turiticos_1);
+    printf("Densidade Populacional: %.3f  Habitantes/km²\n", densidade_populacional_1);
+    printf("PIB Per Capital: %.3f Reais\n\n", pib_per_capita_1);
+    
 
     
     
@@ -75,26 +66,16 @@ int main() {
     // Leitura dos dados da Carta 2
     // =============================
 
-    printf("\nDigite o estado da Carta 2:\n");
-    scanf(" %c", &estado_2);
-
-    printf("Digite o codigo do estado em numero de 01 a 04 (ex: B01):\n");
-    scanf("%s", cod_estado_2);
-
-    printf("Digite o nome da cidade:\n");
-    scanf(" %c[^\n]", nome_cidade_2);
-
-    printf("Digite a populacao:\n");
-    scanf("%d", &populacao_2);
-
-    printf("Digite a area (em km²):\n");
-    scanf("%f", &area_2);
-
-    printf("Digite o PIB (em bilhoes):\n");
-    scanf("%f", &pib_2);
-
-    printf("Digite os pontos turisticos (em numero):\n");
-    scanf("%d", &pontos_turiticos_2);
+    printf("===== CARTA 2 =====\n");
+    printf("Estado: %c\n", estado_2);
+    printf("Código: %s\n", codigo_Carta_2);
+    printf("Nome da Cidade: %s\n", nome_Cidade_2);
+    printf("População: %d Milhões de pessoas\n", populacao_2);
+    printf("Área: %.2f Km²\n", area_2);
+    printf("PIB: %.1f Trilhões de Reais\n", pib_2);
+    printf("Número de Pontos Turísticos: %d Pontos Turísticos\n", pontos_turiticos_2);
+    printf("Densidade Populacional: %.3f  Habitantes/km²\n", densidade_populacional_2);
+    printf("PIB Per Capital: %.3f Reais\n", pib_per_capita_2);
 
 
     
@@ -104,6 +85,7 @@ int main() {
 
     densidade_populacional_2 = populacao_2 / area_2;
     pib_per_capita_2 = (pib_2 * 1000000000) / populacao_2;
+    
 
     
 
@@ -113,14 +95,14 @@ int main() {
 
     printf("\n===== Dados da Carta 1 =====\n");
     printf("Estado: %c\n", estado_1);
-    printf("Codigo do Estado: %s\n", cod_estado_1);
-    printf("Nome da Cidade: %s\n", nome_cidade_1);
-    printf("Populacao: %d\n", populacao_1);
+    printf("Codigo do Estado: %s\n", codigo_Carta_1);
+    printf("Nome da Cidade: %s\n", nome_Cidade_1);
+    printf("Populacao: %d Milhões de pessoas\n", populacao_1);
     printf("Area: %.2f km²\n", area_1);
-    printf("PIB: %.2f bilhoes\n", pib_1);
-    printf("Pontos Turisticos: %d\n", pontos_turiticos_1);
-    printf("Densidade Populacional: %.2f hab/km²\n", densidade_populacional_1);
-    printf("PIB per capita: %.2f reais\n", pib_per_capita_1);
+    printf("PIB: %.1f Trilhões de Reais\n", pib_1);
+    printf("Pontos Turisticos: %d Pontos Turísticos\n", pontos_turiticos_1);
+    printf("Densidade Populacional: %.2f Habitantes/km²\n", densidade_populacional_1);
+    printf("PIB per capita: %.2f Reais\n", pib_per_capita_1);
 
 
      
@@ -130,14 +112,14 @@ int main() {
 
     printf("\n===== Dados da Carta 2 =====\n");
     printf("Estado: %c\n", estado_2);
-    printf("Codigo do Estado: %s\n", cod_estado_2);
-    printf("Nome da Cidade: %s\n", nome_cidade_2);
-    printf("Populacao: %d\n", populacao_2);
+    printf("Codigo do Estado: %s\n", codigo_Carta_2);
+    printf("Nome da Cidade: %s\n", nome_Cidade_2);
+    printf("Populacao: %d Milhões de pessoas\n", populacao_2);
     printf("Area: %.2f km²\n", area_2);
-    printf("PIB: %.2f bilhoes\n", pib_2);
-    printf("Pontos Turisticos: %d\n", pontos_turiticos_2);
-    printf("Densidade Populacional: %.2f hab/km²\n", densidade_populacional_2);
-    printf("PIB per capita: %.2f reais\n", pib_per_capita_2);
+    printf("PIB: %.1f Trilhões de Reais\n", pib_2);
+    printf("Pontos Turisticos: %d Pontos Turísticos\n", pontos_turiticos_2);
+    printf("Densidade Populacional: %.2f Habitantes/km²\n", densidade_populacional_2);
+    printf("PIB per capita: %.2f Reais\n", pib_per_capita_2);
 
     return 0;
 }
