@@ -22,7 +22,7 @@ int main() {
     char codigo_Carta_2[5] = "B02";
     char nome_Cidade_2[50] = "São Paulo";
     int populacao_2 = 12000000;           // Estimativa 2026
-    float area_2 = 1521.11;              // Km²
+    float area_2 = 1521.11;               // Km²
     float pib_2 = 820.50;                 // Bilhões de reais (estimativa 2026)
     int pontos_Turisticos_2 = 60;
 
@@ -51,3 +51,4 @@ int main() {
 
     return 0;
 }
+
