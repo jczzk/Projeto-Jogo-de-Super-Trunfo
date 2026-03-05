@@ -6,15 +6,15 @@ int main() {
     // CARTA 1 - Rio de Janeiro
     // =========================
 
-    char estado_1 = 'A';
-    char codigo_Carta_1[22] = "A01";
-    char nome_Cidade_1[50] = "Rio de Janeiro";
-    int populacao_1 = 11900000;                // Estimativa 2026
-    float area_1 = 1200.25;                    // km²
-    float pib_1 = 1.5;                         // Trilhões de reais (Estimativa 2026)
-    int pontos_turisticos_1 = 45; 
-    float densidade_populacional_1 = 5.170;    // Hab/km²
-    float pib_per_capita_1 = 2.794;            // De reais (Estimativa 2026)
+    char estado_1 = ;
+    char codigo_Carta_1[22] = ;
+    char nome_Cidade_1[50] = ; 
+    int populacao_1 = ;                   // Estimativa 2026
+    float area_1 = ;                      // km²
+    float pib_1 = ;                       // Trilhões de reais (Estimativa 2026)
+    int pontos_turisticos_1 = ; 
+    float densidade_populacional_1 = ;    // Hab/km²
+    float pib_per_capita_1 = ;            // De reais (Estimativa 2026)
     
     
     
@@ -22,15 +22,15 @@ int main() {
     // CARTA 2 - São Paulo
     // =========================
 
-    char estado_2 = 'B';
-    char codigo_Carta_2[5] = "B02";
-    char nome_Cidade_2[50] = "São Paulo";
-    int populacao_2 = 11950000;               // Estimativa 2026
-    float area_2 = 1521.11;                   // Km²
-    float pib_2 = 4.3;                        // Trilhões de reais (Estimativa 2026)
-    int pontos_turisticos_2 = 60;
-    float densidade_populacional_2 = 7.600;   // Hab/km²
-    float pib_per_capita_2 = 3.090;           // De reais (Estimativa 2026)
+    char estado_2 = ;
+    char codigo_Carta_2[5] = ;
+    char nome_Cidade_2[50] = ;
+    int populacao_2 = ;                  // Estimativa 2026
+    float area_2 = ;                     // Km²
+    float pib_2 = ;                      // Trilhões de reais (Estimativa 2026)
+    int pontos_turisticos_2 = ;
+    float densidade_populacional_2 = ;   // Hab/km²
+    float pib_per_capita_2 = ;           // De reais (Estimativa 2026)
 
  
 
