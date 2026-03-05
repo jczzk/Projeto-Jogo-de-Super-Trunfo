@@ -12,7 +12,7 @@ int main() {
     int populacao_1 = 11900000;                // Estimativa 2026
     float area_1 = 1200.25;                    // km²
     float pib_1 = 1.5;                         // Trilhões de reais (Estimativa 2026)
-    int pontos_turiticos_1 = 45; 
+    int pontos_turisticos_1 = 45; 
     float densidade_populacional_1 = 5.170;    // Hab/km²
     float pib_per_capita_1 = 2.794;            // De reais (Estimativa 2026)
     
@@ -25,12 +25,12 @@ int main() {
     char estado_2 = 'B';
     char codigo_Carta_2[5] = "B02";
     char nome_Cidade_2[50] = "São Paulo";
-    int populacao_2 = 11950000;                // Estimativa 2026
-    float area_2 = 1521.11;                    // Km²
-    float pib_2 = 4.3;                         // Trilhões de reais (Estimativa 2026)
-    int pontos_turiticos_2 = 60;  
-    float densidade_populacional_2 = 7.600;    // Hab/km²
-    float pib_per_capita_2 = 3.090;            // De reais (Estimativa 2026)
+    int populacao_2 = 11950000;               // Estimativa 2026
+    float area_2 = 1521.11;                   // Km²
+    float pib_2 = 4.3;                        // Trilhões de reais (Estimativa 2026)
+    int pontos_turisticos_2 = 60;
+    float densidade_populacional_2 = 7.600;   // Hab/km²
+    float pib_per_capita_2 = 3.090;           // De reais (Estimativa 2026)
 
  
 
@@ -45,7 +45,7 @@ int main() {
     printf("População: %d Milhões de pessoas\n", populacao_1);
     printf("Área: %.2f Km²\n", area_1);
     printf("PIB: %.1f Trilhões de Reais\n", pib_1);
-    printf("Número de Pontos Turísticos: %d\n", pontos_turiticos_1);
+    printf("Número de Pontos Turísticos: %d\n", pontos_turisticos_1);
     printf("Densidade Populacional: %.3f  Habitantes/km²\n", densidade_populacional_1);
     printf("PIB Per Capital: %.3f Reais\n\n", pib_per_capita_1);
     
@@ -73,7 +73,7 @@ int main() {
     printf("População: %d Milhões de pessoas\n", populacao_2);
     printf("Área: %.2f Km²\n", area_2);
     printf("PIB: %.1f Trilhões de Reais\n", pib_2);
-    printf("Número de Pontos Turísticos: %d Pontos Turísticos\n", pontos_turiticos_2);
+    printf("Número de Pontos Turísticos: %d Pontos Turísticos\n", pontos_turisticos_2);
     printf("Densidade Populacional: %.3f  Habitantes/km²\n", densidade_populacional_2);
     printf("PIB Per Capital: %.3f Reais\n", pib_per_capita_2);
 
@@ -100,7 +100,7 @@ int main() {
     printf("Populacao: %d Milhões de pessoas\n", populacao_1);
     printf("Area: %.2f km²\n", area_1);
     printf("PIB: %.1f Trilhões de Reais\n", pib_1);
-    printf("Pontos Turisticos: %d Pontos Turísticos\n", pontos_turiticos_1);
+    printf("Pontos Turisticos: %d Pontos Turísticos\n", pontos_turisticos_1);
     printf("Densidade Populacional: %.2f Habitantes/km²\n", densidade_populacional_1);
     printf("PIB per capita: %.2f Reais\n", pib_per_capita_1);
 
@@ -117,10 +117,12 @@ int main() {
     printf("Populacao: %d Milhões de pessoas\n", populacao_2);
     printf("Area: %.2f km²\n", area_2);
     printf("PIB: %.1f Trilhões de Reais\n", pib_2);
-    printf("Pontos Turisticos: %d Pontos Turísticos\n", pontos_turiticos_2);
+    printf("Pontos Turisticos: %d Pontos Turísticos\n", pontos_turisticos_2);
     printf("Densidade Populacional: %.2f Habitantes/km²\n", densidade_populacional_2);
     printf("PIB per capita: %.2f Reais\n", pib_per_capita_2);
 
     return 0;
 }
+}
+
 
