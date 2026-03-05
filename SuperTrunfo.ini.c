@@ -9,9 +9,9 @@ int main() {
     char estado_1 = ;
     char codigo_Carta_1[22] = ;
     char nome_Cidade_1[50] = ;
-    int populacao_1 = ;                         // Estimativa 2026
+    int populacao_1 = ;             // Estimativa 2026
     float area_1 =  ;               // km²
-    float pib_1 = ;                      // Trilhões de reais (Estimativa 2026)
+    float pib_1 = ;                 // Trilhões de reais (Estimativa 2026)
     int pontos_turisticos_1 = ;
 
     // =========================
@@ -21,9 +21,9 @@ int main() {
     char estado_2 = ;
     char codigo_Carta_2[5] = ;
     char nome_Cidade_2[50] = ;
-    int populacao_2 = ;               // Estimativa 2026
-    float area_2 = ;                   // Km²
-    float pib_2 = ;                        // Trilhões de reais (Estimativa 2026)
+    int populacao_2 = ;              // Estimativa 2026
+    float area_2 = ;                 // km²
+    float pib_2 = ;                // Trilhões de reais (Estimativa 2026)
     int pontos_turisticos_2 = ;
 
 
