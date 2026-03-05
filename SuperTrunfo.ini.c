@@ -10,7 +10,7 @@ int main() {
     char codigo_Carta_1[5];
     char nome_Cidade_1[50];
     int populacao_1;                           // Estimativa 2026
-    float area_1;                              // km²
+    float area_1;                              // Km²
     float pib_1;                               // Trilhões de reais (Estimativa 2026)
     int pontos_turisticos_1; 
 
@@ -51,6 +51,7 @@ int main() {
 
     return 0;
 }
+
 
 
 
