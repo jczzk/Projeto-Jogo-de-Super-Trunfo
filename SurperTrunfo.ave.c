@@ -123,9 +123,7 @@ int main() {
     printf("Area: %.2f km²\n", area_1);
     printf("PIB: %.1f Trilhões de Reais\n", pib_1);
     printf("Pontos Turisticos: %d Pontos Turísticos\n", pontos_turisticos_1);
-    printf("Densidade Populacional: %.2f Habitantes/km²\n", densidade_populacional_1);
-    printf("PIB per capita: %.2f Reais\n", pib_per_capita_1);
-
+    
 
      
     // =============================
@@ -140,9 +138,7 @@ int main() {
     printf("Area: %.2f km²\n", area_2);
     printf("PIB: %.1f Trilhões de Reais\n", pib_2);
     printf("Pontos Turisticos: %d Pontos Turísticos\n", pontos_turisticos_2);
-    printf("Densidade Populacional: %.2f Habitantes/km²\n", densidade_populacional_2);
-    printf("PIB per capita: %.2f Reais\n", pib_per_capita_2);
-
+    
     return 0;
 }
 
