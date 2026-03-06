@@ -5,24 +5,24 @@ int main() {
     // =====================
     // CARTA 1
     // =====================
-    char estado1 = 'A';
-    char codigo_Carta1[5] = "A01";
-    char nome_Cidade1[50] = "Rio de Janeiro";
-    int populacao1 = 11900000;                // Estimativa 2026
-    float area1 = 1200.25;                    // km²
-    float pib1 = 1.5;                         // Trilhões de reais (Estimativa 2026)
-    int pontos_turisticos1 = 45; 
+    char estado1;
+    char codigo_Carta1[5];
+    char nome_Cidade1[50];  
+    int populacao1;                     // Estimativa 2026
+    float area1;                        // km²
+    float pib1;                         // Trilhões de reais (Estimativa 2026)
+    int pontos_turisticos1; 
 
     // =====================
     // CARTA 2
     // =====================
-    char estado2 = 'B';
-    char codigo_Carta2[5] = "B02";
-    char nome_Cidade2[50] = "São Paulo";
-    int populacao2 = 11950000;                // Estimativa 2026
-    float area2 = 1521.11;                    // km²
-    float pib2 = 4.3;                         // Trilhões de reais (Estimativa 2026) 
-    int pontos_turisticos2 = 60;
+    char estado2;
+    char codigo_Carta2[5];
+    char nome_Cidade2[50]; 
+    int populacao2;                     // Estimativa 2026
+    float area2;                        // km²
+    float pib2;                         // Trilhões de reais (Estimativa 2026) 
+    int pontos_turisticos2;
 
     int opcao;
 
@@ -170,3 +170,4 @@ int main() {
 
     return 0;
 }
+
