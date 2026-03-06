@@ -2,35 +2,37 @@
 
 int main() {
 
-    // =====================
+    // ========================
     // CARTA 1
-    // =====================
+    // ========================
     char estado1;
     char codigo_Carta1[5];
-    char nome_Cidade1[50];  
+    char nome_Cidade1[50];
     int populacao1;                     // Estimativa 2026
     float area1;                        // km²
     float pib1;                         // Trilhões de reais (Estimativa 2026)
     int pontos_turisticos1; 
 
-    float densidade_1;                  // Hab/km²
-    float pib_per_capita_1;             // De reais (Estimativa 2026
+    float densidade1;                   // Hab/km²
+    float pib_per_capita1;              // De reais (Estimativa 2026)
 
-    // =====================
+
+    // ==========================
     // CARTA 2
-    // =====================
+    // ==========================
     char estado2;
     char codigo_Carta2[5];
-    char nome_Cidade2[50]; 
+    char nome_Cidade2[50];
     int populacao2;                     // Estimativa 2026
     float area2;                        // km²
     float pib2;                         // Trilhões de reais (Estimativa 2026) 
     int pontos_turisticos2;
 
-    float densidade_2;                  // Hab/km²
-    float pib_per_capita_2;             // De reais (Estimativa 2026)
+    float densidade2;                   // Hab/km²
+    float pib_per_capita2;              // De reais (Estimativa 2026)
 
     int opcao;
+ 
 
     // =====================
     // LEITURA CARTA 1
@@ -176,5 +178,4 @@ int main() {
 
     return 0;
 }
-
 
