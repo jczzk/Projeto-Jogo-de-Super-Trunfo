@@ -1,5 +1,19 @@
 #include <stdio.h>
 
+/*Comparando Cartas do Super Trunfo
+
+Você já cadastrou as cartas com suas informações no desafio anterior
+(incluindo estado, nome, população, área, PIB, e pontos turísticos, além da densidade populacional e PIB per capita calculados).
+Agora, você irá implementar a lógica do jogo!
+
+O que você vai fazer
+
+Você implementará a lógica para comparar duas cartas e determinar a vencedora com base em um único atributo numérico (como população, área, PIB, etc.)
+Este desafio é uma continuação do desafio do tema anterior, onde você desenvolveu o cadastro das cartas e você poderá reaproveitar 
+o código de cadastro de cartas que já foi desenvolvido.
+O foco deste nível é a comparação entre duas cartas já cadastradas, utilizando estruturas de decisão if e if-else.
+*/
+
 int main() {
 
     // ========================
@@ -178,4 +192,5 @@ int main() {
 
     return 0;
 }
+
 
