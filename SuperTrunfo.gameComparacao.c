@@ -13,6 +13,9 @@ int main() {
     float pib1;                         // Trilhões de reais (Estimativa 2026)
     int pontos_turisticos1; 
 
+    float densidade_1;                  // Hab/km²
+    float pib_per_capita_1;             // De reais (Estimativa 2026
+
     // =====================
     // CARTA 2
     // =====================
@@ -23,6 +26,9 @@ int main() {
     float area2;                        // km²
     float pib2;                         // Trilhões de reais (Estimativa 2026) 
     int pontos_turisticos2;
+
+    float densidade_2;                  // Hab/km²
+    float pib_per_capita_2;             // De reais (Estimativa 2026)
 
     int opcao;
 
@@ -170,4 +176,5 @@ int main() {
 
     return 0;
 }
+
 
