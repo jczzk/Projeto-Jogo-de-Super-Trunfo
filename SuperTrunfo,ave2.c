@@ -4,7 +4,7 @@
 int main() {
 
     // ======================
-    // CARTA 1 - BRASIL
+    // CARTA 1 
     // ======================
 
     char pais1[30];
@@ -17,7 +17,7 @@ int main() {
 
 
     // ======================
-    // CARTA 2 - ESTADOS UNIDOS
+    // CARTA 2 
     // ======================
 
     char pais2[30]";
