@@ -7,11 +7,11 @@ int main() {
     // CARTA 1 - BRASIL
     // ======================
 
-    char pais1[30] = "Brasil";
-    int populacao1 = 203000000;
-    float area1 = 8515767.0;
-    float pib1 = 1.92; // em trilhões
-    int pontos_turisticos1 = 30;
+    char pais1[30];
+    int populacao1;
+    float area1;
+    float pib1; // em trilhões
+    int pontos_turisticos1;
 
     float densidade1 = populacao1 / area1;
 
@@ -20,11 +20,11 @@ int main() {
     // CARTA 2 - ESTADOS UNIDOS
     // ======================
 
-    char pais2[30] = "Estados Unidos";
-    int populacao2 = 331000000;
-    float area2 = 9833517.0;
-    float pib2 = 25.46; // em trilhões
-    int pontos_turisticos2 = 50;
+    char pais2[30]";
+    int populacao2;
+    float area2;
+    float pib2; // em trilhões
+    int pontos_turisticos2;
 
     float densidade2 = populacao2 / area2;
 
