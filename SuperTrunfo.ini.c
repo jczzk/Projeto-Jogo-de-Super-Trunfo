@@ -1,9 +1,9 @@
 #include <stdio.h>
 
 /*
- * Desafio: Nível Novato - Casdastrando as Cartas do Super Trunfo
+ * Desafio: Nível Novato - Cadastrando as Cartas do Super Trunfo
  * 
- * O bjetivo desse desafio é construir a base do jogo Super Trunfo de Países.
+ * O objetivo desse desafio é construir a base do jogo Super Trunfo de Países.
  * Criar Um sistema para cadastrar as cartas com informações sobre as cidades.
  * Praticar a leitura de dados do usuário, o armazenamento em variáveis e a exibição dessas informações na tela.
  * */
