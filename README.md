@@ -16,6 +16,7 @@ População ( int)
 Área ( float)
 PIB ( float)
 Número de pontos turísticos ( int)
+
 ## ⚙️ Funcionalidades do Sistema:
 
 O sistema permitirá ao usuário cadastrar os dados de duas cartas manualmente via terminal.
@@ -44,7 +45,7 @@ PIB per capita: PIB / População ( float)
 O sistema irá gerar automaticamente a Densidade Populacional e o PIB per capita.
 Os novos atributos serão exibidos junto com os demais.
 
-##📥 Entrada e 📤 Saída de Dados:
+## 📥 Entrada e 📤 Saída de Dados:
 
 Mesma entrada do nível Novato.
 A saída exibirá também os atributos calculados.
@@ -55,22 +56,22 @@ Continue sem usar laços ( for, while) ou condicionais ( if, else).
 🏆 Nível Mestre: Comparação e Super Poder
 No nível Mestre, você implementará a comparação entre duas cartas e o cálculo do "Super Poder".
 
-##🆕 Diferença em relação ao Nível Aventureiro:
+## 🆕 Diferença em relação ao Nível Aventureiro:
 
 Comparação de cartas: O usuário poderá comparar as duas cartas.
 Super Poder: Soma de todos os atributos (inclusive os cálculos), com a densidade populacional invertida antes da soma (1/densidade). Tipo: float.
 
-##⚙️ Funcionalidades do Sistema:
+## ⚙️ Funcionalidades do Sistema:
 
 Comparação atributo a atributo, mostrando qual carta venceu (1 se a Carta 1 vence, 0 se a Carta 2 vence).
 Para Densidade Populacional, vence a carta com o menor valor.
 Para os demais atributos (e Super Poder), vence a carta com o maior valor.
 
-##📥 Entrada e 📤 Saída de Dados:
+## 📥 Entrada e 📤 Saída de Dados:
 
 Mesma entrada dos níveis anteriores, mas a população agora é unsigned long int.
 A saída mostrará o resultado da comparação para cada atributo e o Super Poder.
 Observação: Preste atenção à conversão de tipos ao calcular o Super Poder!
 
-##🏁 Conclusão
+## 🏁 Conclusão
 Ao concluir qualquer um dos níveis, você terá dado um passo importante no desenvolvimento do Super Trunfo - Países. Boa sorte e divirta-se programando!
