@@ -1,5 +1,5 @@
 #include <stdio.h>  
-
+ 
 /**
  * Desafio: Nível Mestre - Comparando Cartas do Super Trunfo
  * 
