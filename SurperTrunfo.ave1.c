@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include <stdio.h> 
 /* 
 Desafio: Nível Aventureiro - Casdastrando as Cartas do Super Trunfo
 
