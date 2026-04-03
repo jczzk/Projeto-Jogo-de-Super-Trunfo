@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include <stdio.h> 
 
 /*
  * Desafio: Nível Novato - Cadastrando as Cartas do Super Trunfo
