@@ -11,19 +11,16 @@ O desafio é dividido em três níveis: Novato, Aventureiro e Mestre, com cada n
 No nível Novato, você iniciará a criação do sistema básico do jogo Super Trunfo com o tema "Países". As cartas serão divididas por estados, cada um com quatro cidades. Imagine um país dividido em oito estados (A a H), e cada estado com quatro cidades (1 a 4). A combinação forma o código da carta (ex: A01, B02).
 
 ## 🚩 Objetivo: Criar um programa em C que cadastre duas cartas com os seguintes atributos:
-
 População ( int)
 Área ( float)
 PIB ( float)
 Número de pontos turísticos ( int)
 
 ## ⚙️ Funcionalidades do Sistema:
-
 O sistema permitirá ao usuário cadastrar os dados de duas cartas manualmente via terminal.
 Após o cadastro, o sistema exibirá os dados de cada cidade de forma organizada.
 
 ## 📥 Entrada e 📤 Saída de Dados:
-
 O usuário insere os dados de cada carta interativamente via scanf.
 O programa exibe os dados cadastrados usando printf, com cada atributo em uma nova linha.
 Simplificações para o Nível Novo:
@@ -36,12 +33,11 @@ Não use laços ( for, while) ou condicionais ( if, else).
 No nível Aventureiro, você expandirá o sistema para incluir o cálculo de dois novos atributos: Densidade Populacional e PIB per capita.
 
 ## 🆕 Diferença em relação ao Nível Novato:
-
 Novos Atributos:
 Densidade Populacional: População / Área ( float)
 PIB per capita: PIB / População ( float)
-⚙️ Funcionalidades do Sistema:
 
+## ⚙️ Funcionalidades do Sistema:
 O sistema irá gerar automaticamente a Densidade Populacional e o PIB per capita.
 Os novos atributos serão exibidos junto com os demais.
 
@@ -57,18 +53,15 @@ Continue sem usar laços ( for, while) ou condicionais ( if, else).
 No nível Mestre, você implementará a comparação entre duas cartas e o cálculo do "Super Poder".
 
 ## 🆕 Diferença em relação ao Nível Aventureiro:
-
 Comparação de cartas: O usuário poderá comparar as duas cartas.
 Super Poder: Soma de todos os atributos (inclusive os cálculos), com a densidade populacional invertida antes da soma (1/densidade). Tipo: float.
 
 ## ⚙️ Funcionalidades do Sistema:
-
 Comparação atributo a atributo, mostrando qual carta venceu (1 se a Carta 1 vence, 0 se a Carta 2 vence).
 Para Densidade Populacional, vence a carta com o menor valor.
 Para os demais atributos (e Super Poder), vence a carta com o maior valor.
 
 ## 📥 Entrada e 📤 Saída de Dados:
-
 Mesma entrada dos níveis anteriores, mas a população agora é unsigned long int.
 A saída mostrará o resultado da comparação para cada atributo e o Super Poder.
 Observação: Preste atenção à conversão de tipos ao calcular o Super Poder!
